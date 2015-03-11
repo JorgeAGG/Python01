@@ -1,11 +1,9 @@
-#Jorge A. GarcÌa Gonz·lez
+#Jorge A. Garc√≠a Gonz√°lez
 #Python01 - 99 bottle song.
 
-
-
-for i in reversed(range(1, 99)):
-    print i, "bottles of beer on the wall,", i, "bottles of beer"
-    print"Take one down, pass it around,", i-1, "bottles of beer on the wall.\n"
+for b in reversed(range(1, 99)):
+    print b, "bottles of beer on the wall,", b, "bottles of beer"
+    print"Take one down, pass it around,", b-1, "bottles of beer on the wall.\n"
 
 
 
